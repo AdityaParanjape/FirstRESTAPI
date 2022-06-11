@@ -24,9 +24,9 @@ app.secret_key = 'Adityaaaa'
 api = Api(app)
 
 
-@app.before_first_request
-def create_tables():
-    db.create_all()
+# @app.before_first_request
+# def create_tables():
+#     db.create_all()
 
 '''
 Creates an endpoint /auth and sends username and password to authenticate function
